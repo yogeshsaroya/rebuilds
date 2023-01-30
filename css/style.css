@@ -1,0 +1,377 @@
+
+@font-face{
+    font-family: quicksand-regular;
+    src : url(../fonts/quicksand-regular.ttf);
+}
+
+@font-face{
+    font-family: quicksand-medium;
+    src : url(../fonts/quicksand-medium.ttf);
+}
+
+@font-face{
+    font-family: urban;
+    src : url(../fonts/urban.ttf);
+}
+@font-face{
+    font-family: ebrima;
+    src : url(../fonts/ebrima.ttf);
+}
+@font-face{
+    font-family: mistral_regular;
+    src : url(../fonts/mistral_regular.ttf);
+}
+img{
+    max-width: 100%;
+}
+body{
+  font-family: quicksand-regular;
+  line-height: 1.4;
+}
+
+h1 , h2 , h3 , h4 , h5{
+   font-family: 'urban' , arial;
+  line-height: 1.4;
+}
+.miralFont{
+  font-family: 'mistral_regular', cursive;
+  font-size: 120%;
+    font-weight: normal !important;
+}
+.mnLogo img {
+    max-height: 42px;
+}
+.mainHeader .navbar {
+  font-family: 'ebrima' , arial;
+}
+
+.mainHeader {
+    position: fixed;
+    background: transparent;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    transition: all 500ms ease
+}
+
+.mainHeader.darkHeader {
+    background-color: #333;
+}
+
+.mainHeader .navbar-nav {
+    background: transparent
+}
+
+.mainHeader .navbar-nav>.nav-item {
+    display: flex;
+    align-items: center
+}
+
+.mainHeader .navbar-nav>.nav-item>.nav-link {
+    padding: 0 12px;
+    position: relative;
+    line-height: 1;
+    color: #fff;
+    font-size: 14px;
+    transition: all 500ms ease;
+    font-family: 'ebrima' , arial;
+}
+
+.mainHeader .navbar-nav>.nav-item:last-child>.nav-link {
+    padding-right: 0
+}
+
+.mainHeader .navbar-nav>.nav-item>.nav-link:hover {
+    color: #f5f5f5
+}
+
+body .mainBtn {
+    border: 1px solid #75b7ee;
+    border-radius: 0;
+    padding: 6px 20px;
+    z-index: 5;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.6);
+    transition: all 500ms ease;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body .mainBtn:hover {
+    background: rgba(255, 255, 255, 1);
+    color: #030d16; 
+}
+
+.homeBnr {
+    background: url(../images/bg-imge.jpg) no-repeat center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 50px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: visible;
+    color: #fff;
+    min-height: 600px;
+    background-attachment: fixed;
+}
+
+.homeBnr:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.homeBnr > div{
+  position: relative;
+  z-index: 2;
+}
+.headTitle {
+    max-width: 615px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headTitle h2{
+  font-family: quicksand-regular;
+  font-size: 2.6rem;
+      margin: 0;
+    line-height: 1;
+}
+.headTitle h5 {
+    font-family: quicksand-regular;
+    font-size: 1.3rem;
+    position: relative;
+    left: -42px;
+    display: inline-block;
+}
+
+
+img.imgWtxt {
+    margin: -38px;
+    max-width: 300px;
+    margin-left: -20px;
+}
+
+
+.hotelImgs .col4 {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    border: 0;
+    overflow: hidden;
+}
+
+.hotelImgs .col4:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0,0,0,0.8);
+    opacity: 0;
+    transition: 500ms ease;
+}
+.hotelImgs .col4:hover:after{
+   opacity: 1;
+}
+.hotelImgs .col4:last-child{
+    margin-right: 0;
+}
+.hotelImgs .col4 img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    transition: all 500ms ease;
+}
+.hotelImgs .col4:hover img {
+     transform: scale(1.2 , 1.2);
+   }
+.hoverBx{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 12px;
+    text-align: center;
+    width: 85%;
+    transition: all 500ms ease;
+    z-index: 6;
+    opacity: 0;
+    color: #fff;
+    font-family: quicksand-regular;
+}
+.hotelImgs .col4:hover .hoverBx{
+    opacity: 1;
+}
+
+.titleHead {
+    display: inline-block;
+    color: #75b7ee;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    min-height: 45px;
+}
+.titleHead span{
+  color: #fff;
+  text-transform: none;
+}
+h4.titleHead .imgWtxt {
+        width: 152px;
+    margin: -29px;
+}
+.hotelImgs .col-lg-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.hotelImgs .spclBtn .col4{
+  box-shadow: 0 0 18px #fff;
+}*/
+
+body .btn-expr{
+  color: #030d16;  
+  font-family: 'mistral_regular', cursive;
+  text-transform: inherit;
+  font-size: 22px;
+}
+.arwImg{
+    position: relative;
+}
+.arwImg:after{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 12px;
+    background: url(../images/arrowImg.png) no-repeat center center;
+    background-size: 20px;
+    left: 81%;
+    top: 62%;
+}
+
+@media (min-width: 1400px){
+  .homeBnr {
+    padding: 140px 0 30px;
+  }
+  .headTitle h2 {
+    font-size: 3.5rem;
+ }
+ .headTitle {
+    max-width: 780px;
+}
+.headTitle h5{
+    font-size: 1.8rem;
+}
+.titleHead {
+    font-size: 2.2rem;
+ }
+ .hotelImgs .col-lg-4{
+    margin-top: 50px;
+ }
+ h4.titleHead .imgWtxt {
+    width: 201px;
+    margin: -28px;
+}
+.titleHead {
+    min-height: 60px;
+}
+.arwImg:after {
+    left: 88%;
+    top: 70%;
+}
+}
+
+@media (min-width: 1700px){
+    body{
+  font-size: 1.3rem;
+}
+  .homeBnr {
+    padding: 180px 0 60px;
+  }
+  .headTitle h2 {
+    font-size: 4.1rem;
+ }
+ .headTitle {
+    max-width: 860px;
+}
+.headTitle h5{
+    font-size: 2rem;
+}
+.titleHead {
+    font-size: 2.8rem;
+ }
+ .hotelImgs .col-lg-4{
+    margin-top: 80px;
+ }
+ img.imgWtxt {
+    max-width: 359px;
+}
+ h4.titleHead .imgWtxt {
+    width: 220px;
+    margin: -28px;
+    margin-left: -38px;
+}
+.titleHead {
+    min-height: 60px;
+}
+.hotelImgs .col4 {
+    width: 360px;
+    height: 360px;
+    }
+    .arwImg:after {
+    left: 90%;
+    top: 70%;
+   }
+}
+
+@media (min-width: 2000px){
+  .homeBnr {
+    padding: 220px 0 70px;
+  }
+}
+@media (max-width: 991px){
+  .mainHeader .navbar-nav>.nav-item>.nav-link {
+    padding: 20px 0;
+    border-bottom: 1px solid #3f3d3d;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px){
+  .headTitle h2{
+    font-size: 2rem;
+    display: block;
+  }
+  .headTitle h5{
+    display: block;
+    margin: 0;
+    font-size: 1.1rem;
+    left: 0;
+    margin-top: 0.5rem;
+  }
+  img.imgWtxt {
+    margin: -52px;
+    max-width: 230px;
+    margin-left: -20px;
+}
+.hotelImgs .col-lg-4 {
+    margin-top: 20px;
+    }
+}
