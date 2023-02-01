@@ -404,6 +404,20 @@ body .btn-expr{
 }
 @media (max-width: 575px){
     .headTitle h2 {
+       font-size: 1.9rem;
+    }
+    img.imgWtxt {
+    margin-right: -10px;
+    max-width: 150px;
+   }
+   .headTitle h5 {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+  }
+}
+
+@media (max-width: 400px){
+    .headTitle h2 {
        font-size: 1.5rem;
     }
     img.imgWtxt {
