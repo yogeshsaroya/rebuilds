@@ -266,6 +266,32 @@ body .btn-expr{
     left: 81%;
     top: 62%;
 }
+.txtImgs {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.txtImgs img {
+    height: 26px;
+    max-width: 250px;
+    object-fit: contain;
+}
+.spclBtn .txtImgs img {
+    height: 38px;
+    position: relative;
+    z-index: 5;
+}
+.shadows{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3%;
+    background: #fff;
+    border-radius: 40%;
+    filter: blur(15px);
+    width: 60%;
+    height: 80%;
+    opacity: 0.7;
+}
 
 @media (min-width: 1400px){
   .homeBnr {
