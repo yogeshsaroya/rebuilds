@@ -325,6 +325,33 @@ body .btn-expr{
 }
 }
 
+@media (min-width: 1600px){
+    body .container{
+        max-width: 1420px;
+    }
+    .mainHeader .navbar-nav>.nav-item>.nav-link {
+    padding: 0 25px;
+    font-size: 18px;
+  }
+  .mnLogo img {
+    max-height: 60px;
+  }
+  .homeBnr {
+    padding: 280px 0 30px;
+  }
+  .headTitle {
+    max-width: 1000px;
+ }
+ img.imgWtxt {
+    margin: -38px;
+    max-width: 396px;
+    margin-left: -30px;
+}
+.headTitle h5 {
+    font-size: 2.5rem;
+}
+}
+
 @media (min-width: 1700px){
     body{
   font-size: 1.3rem;
@@ -410,7 +437,7 @@ body .btn-expr{
     margin-right: -10px;
     max-width: 150px;
    }
-   .headTitle h5 {
+   .homeBnr .headTitle h5 {
     font-size: 1.2rem;
     margin-top: 0.2rem;
   }
@@ -442,3 +469,31 @@ body .btn-expr{
   }
 }
 
+@media (min-height: 600px){  
+  .homeBnr {
+    padding: 150px 0 30px;
+  }
+}
+@media (min-height: 700px){  
+  .homeBnr {
+    padding: 180px 0 30px;
+  }
+}
+
+@media (min-height: 850px){  
+  .homeBnr {
+    padding: 260px 0 30px;
+  }
+}
+
+@media (min-height: 1000px){  
+  .homeBnr {
+    padding: 300px 0 30px;
+  }
+}
+
+@media (min-height: 1200px){  
+  .homeBnr {
+    padding: 400px 0 30px;
+  }
+}
