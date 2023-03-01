@@ -497,3 +497,154 @@ body .btn-expr{
     padding: 400px 0 30px;
   }
 }
+
+
+/*comming soon page css*/
+
+.fullBg{
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  padding: 80px 0;
+  min-height: 500px;
+}
+.comingSoon{
+  background: url(../images/commingSoon/bg_soon.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+.posAbslte {
+    max-width: 500px;
+        width: 100%;
+    right: 5%;
+    position: relative;
+    margin: 30px 0;
+}
+.posAbslte .headTitle h2 {
+    font-family: quicksand-regular;
+    font-size: 1.3rem;
+    margin: 0;
+    line-height: 1;
+    text-align: left;
+    }
+.commingSoontxt{
+  color: #fff;
+    background: #5d8fbb;
+    font-family: urban;
+    font-size: 1.6rem;
+    position: absolute;
+    left: -100px;
+    text-transform: uppercase;
+    top: 74px;
+    transform: rotate(-45deg);
+    padding: 8px 20px;
+    box-shadow: 0 8px 12px #000;
+    width: 100%;
+    text-align: center;
+    max-width: 400px;
+}
+   .posAbslte img.imgWtxt {
+    margin: -38px;
+    max-width: 130px;
+    margin-left: -15px;
+}
+.smallSubHead{
+  max-width: 280px;
+  margin: 0 auto 40px;
+}
+.posAbslte h6{
+  font-size: 1.3rem;
+}
+.posAbslte h6 em{
+  color: #9fcffc;
+}
+a.btn.btn-outline-light {
+    width: 100%;
+    border-radius: 0;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    max-width: 300px;
+    background: rgb(83 82 82 / 50%);
+    transition: all 500ms;
+}
+a.btn.btn-outline-light:hover {
+  background: rgba(255,255,255,1);
+}
+.socialTabs{
+  display: flex;
+  justify-content: center;
+  margin: 50px auto 10px; 
+  list-style: none;
+  padding: 0;
+}
+.socialTabs li{
+  margin: 2px 6px;
+} 
+.socialTabs li a{
+  transition: all 500ms ease;
+  display: block;
+  width: 45px;
+}
+.socialTabs li a:hover{
+  opacity: 0.8;
+}
+.socialTabs + p{
+  letter-spacing: 2px;
+}
+.commingSoontxts{
+  position: absolute;
+  top: 0;
+  left: 0;  
+}
+.commingSoontxts img{
+  max-height: 220px;
+}
+
+@media (min-width: 1500px){
+  .smallSubHead {
+    max-width: 380px;
+    margin: 0 auto 60px;
+  }
+  .posAbslte .headTitle h2 {
+    font-size: 1.7rem;
+  }
+  .posAbslte img.imgWtxt {
+    max-width: 174px;
+  }
+  .posAbslte h6 {
+    font-size: 1.6rem;
+}
+.posAbslte {
+    max-width: 600px;
+    }
+    a.btn.btn-outline-light {
+    margin-top: 1.5rem;
+  }
+  .commingSoontxts img{
+     max-height: 330px;
+   }
+}
+
+@media (max-width: 580px){
+  .posAbslte{
+    margin: 20px auto;
+    padding: 5px 15px;
+        right: 0;
+  }
+  .commingSoontxt {
+    font-size: 1.2rem;
+    left: -94px;
+    top: 36px;
+    max-width: 300px;
+}
+.commingSoontxts img{
+  max-height: 170px;
+}
+}
+
+
