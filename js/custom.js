@@ -4,6 +4,19 @@ $(document).ready(function() {
        $('.fileName').text(fileName);
     
   });
+
+       $(".menuBar , sidebar .bi-x").click(function(){       
+              $("body").toggleClass('sidebarOpen');
+       });
+       $('.posAbslte a.btn.btn-outline-light').click(function(){
+          $(this).hide();
+          $('.inputJoin').fadeIn('slow');
+          $('.posAbslte').toggleClass('showInput');
+       });
+
+    setTimeout(function() {
+      $('body').addClass("sidebarOpen");
+    }, 3000);
 });
 
          
