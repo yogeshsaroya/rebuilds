@@ -668,7 +668,7 @@ a.btn.btn-outline-light:hover , .inputFields:hover:not(input) {
 .sidebar{
   position: fixed;
   top: 0;
-  left: -400px;
+  left: -102%;
   width: 95%;
   max-width: 400px;
   height: 100vh;
@@ -740,6 +740,16 @@ a.btn.btn-outline-light:hover , .inputFields:hover:not(input) {
   .commingSoontxts img{
      max-height: 330px;
    }
+   .sidebar {
+    width: 95%;
+    max-width: 32%;
+  }
+  .posAbslte {
+    right: 12%;
+  }
+  .sidebar address {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 580px){
