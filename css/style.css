@@ -742,10 +742,10 @@ a.btn.btn-outline-light:hover , .inputFields:hover:not(input) {
    }
    .sidebar {
     width: 95%;
-    max-width: 32%;
+    max-width: 40%;
   }
   .posAbslte {
-    right: 12%;
+    right: 16%;
   }
   .sidebar address {
     font-size: 1.5rem;
