@@ -32,7 +32,7 @@ $('.teamConnect > .col-3 ').click(function(){
         });
 
  // slick slider home page
-
+ if (typeof obj === 'slick') {
  $('.sliderClient').slick({
   dots: false,
   infinite: true,
@@ -64,7 +64,7 @@ $('.teamConnect > .col-3 ').click(function(){
     }
   ]
 });
-
+ }
 });
 
          
