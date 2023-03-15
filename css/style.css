@@ -541,6 +541,10 @@ footer img{
 .txt-small{
   font-size: 80%;
 }
+.mx-700 {
+    max-width: 700px;
+    width: 80%;
+}
 @media (min-width: 1400px){
   .homeBnr {
     padding: 140px 0 30px;
@@ -598,6 +602,18 @@ footer img{
 .headTitle h5 {
     font-size: 2.5rem;
 }
+.contentWrap {
+    max-width: 690px;
+   }
+   .mxw-70 {
+    max-width: 450px;
+   }
+   .h1{
+    font-size: 3rem;
+   }
+   .h2 {
+    font-size: 2.5rem;
+  }
 }
 
 @media (min-width: 1700px){
@@ -701,7 +717,7 @@ footer img{
        min-width: 250px;
     }
   .contentWrap {
-    max-width: 420px;
+    max-width: 450px;
   }
 }
 
